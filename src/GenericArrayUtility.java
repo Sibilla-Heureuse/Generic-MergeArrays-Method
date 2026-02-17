@@ -1,6 +1,6 @@
 import java.util.*;
 public class GenericArrayUtility {
-    // Generic merge method
+
     public static <T> T[] mergeArrays(T[] a, T[] b) {
 
         if (a == null && b == null) {
